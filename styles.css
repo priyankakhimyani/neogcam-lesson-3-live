@@ -3,11 +3,12 @@
 :root {
     --primary-color:  #F87171;
     --dark-color: #4B5563;
-    --off-white: #E5E7EB;
+    --off-white:  #F3F4F6;
 }
 body{
     font-family: 'Crimson Text', 
     serif;
+    margin: 0px;
 }
 
 hr{
@@ -89,6 +90,7 @@ hr{
 }
 
 .hero .hero-heading{
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-color);
 }
@@ -107,4 +109,21 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .links{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
