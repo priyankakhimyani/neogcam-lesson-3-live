@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 :root {
-    --primary-color:  #F87171;
+    --primary-color: #F87171;
     --dark-color: #4B5563;
-    --off-white:  #F3F4F6;
+    --off-white:  #E5E7EB;
 }
 body{
     font-family: 'Crimson Text', 
@@ -30,6 +30,8 @@ hr{
 .links{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .primary-link{
@@ -127,3 +129,5 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 }
+
+
