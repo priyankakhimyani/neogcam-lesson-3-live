@@ -3,6 +3,7 @@
 :root {
     --primary-color:  #F87171;
     --dark-color: #4B5563;
+    --off-white: #E5E7EB;
 }
 body{
     font-family: 'Crimson Text', 
@@ -94,4 +95,16 @@ hr{
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+
+/** section **/
+.section{
+    padding: 2rem;  
+}
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
 }
