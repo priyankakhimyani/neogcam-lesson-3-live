@@ -139,7 +139,6 @@ hr{
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
 }
 
 .footer .links{
@@ -158,7 +157,8 @@ hr{
 
 .project-container {
     width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     margin: auto;
 }
 
