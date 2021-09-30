@@ -205,3 +205,8 @@ hr{
 .font-dark-gray {
     color: var(--dark-color);;
 }
+
+.tagline {
+    text-align: center;
+    width: 100%;
+}
