@@ -210,3 +210,30 @@ hr{
     text-align: center;
     width: 100%;
 }
+
+/* Blogs */
+
+.blog-title {
+    width: 60%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+.blog-body {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.blog-img-container {
+    text-align: center;
+    margin: 5rem;
+}
+
+.blog-img {
+    width: 20rem;
+}

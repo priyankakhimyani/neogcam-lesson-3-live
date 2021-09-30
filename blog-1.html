@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | priyankakhimyani</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c8ee3dd930.js"></script>
+</head>
+<body>
+
+    <nav class=" navigation container">
+        <div class="nav-brand">priyanka.dev</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="links" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="blog-title font-dark-gray">Understanding CSS Box Model</div>
+
+    <div class="blog-body font-dark-gray">
+        <p>
+            In the world of web development, every other day there is a new library being released. But today, I would like to discuss not the big jungle of libraries, but something that lies at the roots of web development - HTML and CSS. Just as an architect looks after the design and construction of a building structurally and an interior designer makes it aesthetically pleasing, in the world of web development, HTML helps to build a robust structure for your website while CSS helps you elevate your website aesthetically by adding styles.
+        </p>
+        <p>
+            At the center of styling and using CSS lies the box model. CSS box model helps to form the set of rules and foundation for how the HTML elements are laid down on the page. It is considered a commendable milestone once a beginner gets a good grip of the box model. So, in the blog, I would briefly explain the parameters of the box model.
+        </p>
+        
+        <p>
+            The box model is basically a container that wraps around the elements has properties like margin, border, padding, content, height, and width. Let’s take a look at them.
+        </p>
+        
+        <div class="blog-img-container">
+            <img class="blog-img" src="images/bm.jpg"/>
+        </div>
+        
+        <h3>The Margin</h3>
+        <p>
+            It is the outer-most section, going around the element. It takes up the empty space between the margin and border properties. It acts as a buffer separating the interior of the CSS box model and the exterior of other HTML elements surrounding it.
+        </p>
+        <h3>The Border</h3>
+        <p>
+            This is the area that margin and padding properties of the box. There are various CSS rules to customize the border property of an element ranging from thickness to roundness.</p>
+        <h3>The Padding</h3>
+        <p>This is the area that lies between the actual content of the HTML element and the border. You can set the padding for all the sides using the CSS rules available.</p>
+        <h3>The Content</h3>
+        <p>At the very center of our box model lies the actual content. The content can be anything that you would like to display on your webpage, like images, buttons, headings, paragraphs, etc, and can even be containers in which such basic elements are grouped together.</p>
+        <h3>The Height and Width</h3>
+        <p>One of the most straightforward properties of the box model is Height and width. They basically are the parameters that define the actual space your content will occupy on the web page.
+        </p>
+        <p>So that’s about the basics of the CSS box model. Here is a <a  href="https://codepen.io/TechSquidTV/pen/oWXLeR">link</a> to play around with the box model and understand it better.</p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-header">Find me here</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="links" href="https://www.linkedin.com/in/priyankakhimyani/"><i class="fab fa-linkedin social"></i></a></li>
+            <li class="list-item-inline"><a class="links" href="https://github.com/priyankakhimyani"><i class="fab fa-github social"></i></a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
